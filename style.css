@@ -1,0 +1,142 @@
+body {
+	margin: 0;
+}
+
+.header, .foot {
+	color: white	
+}
+
+.button1, .button2 {
+	border: 2px white solid;
+	background: none;
+	border-radius: 20px;
+	color: white;
+	font-size: 16px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	padding: 6px 18px 5px 18px;
+	margin: 0 20px 0 20px;
+	
+}
+
+.header {
+	background: linear-gradient(to right, #001c82, #0c0c1f);
+	display: flex;
+	justify-content: space-between;
+}
+
+.foot {	
+	background: linear-gradient(to left, #001c82, #0c0c1f);
+	display: flex;
+	
+}
+
+.main {
+	font-family: 'Roboto', sans-serif;
+	padding: 30px 150px 70px 150px;	
+	font-size: 18px;
+}
+
+.logo {
+	position: relative;
+	left: 122px;
+	top: 38px;	
+}
+
+.picture {	
+	position:relative;
+	top: 10px;
+}
+
+.name {
+	font-family: 'Russo One', sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	position: relative;
+	right: 45px;
+}
+
+.name2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	position: relative;
+	right: 45px;
+	bottom: 38px;
+}
+
+.documents {
+	font-family: "Russo One", sans-serif;
+	font-size: 36px;	
+	position: relative;
+	right: 45px;
+	bottom: 15px;
+	width: 300px;
+}
+
+.link {
+	position: relative;
+	font-family: "Roboto", sans-serif;
+	color: #24b0ff;
+	text-decoration: none;
+	font-color: 16px;
+	margin: 0 20px 0 20px;
+}
+
+.top-container {
+	position: relative;
+	top: 40px;
+	left: 200px;
+}
+
+.header a {
+	
+	position: relative;
+	top: 50px;
+	right: 350px;
+}
+
+.email {
+	width: 100px;
+}
+
+.files {
+	display: block;
+	margin: 15px 10px 15px 10px;
+	text-decoration: none;
+	color: #FC688A;
+}
+
+.download {
+	display: flex;
+	align-items: center;
+}
+
+.bold__letters {
+	font-family: "Russo One", sans-serif;
+	font-size: 24px;
+}
+
+.foot {
+
+}
+
+.email {
+	position: relative;
+	left: 120px;
+	margin: 36px 0 36px 0;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	left: 500px;
+	top: 40px;	
+}
+
+.bottom-container {
+	position: relative;
+	left: 580px;
+	top: 40px;
+}
